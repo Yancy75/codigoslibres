@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CentroCharros</title>
+  <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,300,700">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png"/>
+</head>
+<body >
+  <main id="particles-js">
+  <section  class="wrap">
+
+    <article class="widget">
+      <div class="titulo"><h1>PROYECTO EN CONSTRUCCIÓN</h1></div>
+      <div class="relog">
+        <span>Días<p id="dia"></p></span>
+        <span>Horas<p id="horas"></p></span>
+        <span>Minutos<p id="minuto"></p></span>
+        <span>Segundos<p id="segundo"></p></span>
+      </div>
+    </article>
+
+      <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item slide fa1 active"></div>
+          <div class="carousel-item slide fa2"></div>
+          <div class="carousel-item slide fa3"></div>
+        </div>
+      </div>
+    
+
+  </section>
+    </main>
+</body>
+</html>
+<!--<script type="text/javascript" src="js/particles.js"></script>-->
+<script type="text/javascript" src="js/conteo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script type="text/javascript">
+var Ca = document.querySelector('#carousel')
+var c = new bootstrap.Carousel(Ca, {
+  interval: 10000,
+  pause: false
+})
+/*var myCarousel = document.querySelector('#carouselExampleControls')
+var carousel = new bootstrap.Carousel(myCarousel)*/
+</script>

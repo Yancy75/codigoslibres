@@ -1,0 +1,54 @@
+
+    #space-invader {
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+    }
+
+    #cross {
+      background: red;
+      height: 100px;
+      position: relative;
+      width: 20px;
+    }
+    #cross:after {
+      background: red;
+      content: "";
+      height: 20px;
+      left: -40px;
+      position: absolute;
+      top: 40px;
+      width: 100px;
+    }

@@ -1,0 +1,23 @@
+.<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ titulo }}</h1>
+      <ul>
+        <li v-for="verdura of verduras">{{ verdura.nombre }} - {{ verdura.cantidad}}
+          <span v-if="verdura.cantidad === 0">- No hay</span>
+        </li>
+      </ul>
+      <input type="text" placeholder="dame un valor extra de verdura" v-model="paquete">
+      <button @click="agregarfruta">Agregar</button>
+    </div><!-- final de  vue-->
+     
+     
+     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+     <script src="js/uno.js"></script>
+  </body>
+</html>

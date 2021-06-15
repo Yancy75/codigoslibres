@@ -1,0 +1,92 @@
+* {
+  margin:0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+@font-face { font-family: calcula; src: url('../fonts/Calculus LCD Regular.otf');
+}
+body {
+  background-image: linear-gradient(to right, #0a0a0a , blue, #fbfbfa);
+  color: #fff;
+  overflow: hidden;
+  /*height: 100vh;*/
+}
+.wrap {
+  font-family: oswald, arial;
+  font-size: inherit;
+  /*position: fixed;
+  top: 30%;*/
+  width: 100%;
+  /*margin: auto;*/
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.relog{
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    display: -webkit-flex;
+    display:-ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.relog p {
+  font-size: 6vw;
+  text-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000;
+}
+.relog span{
+    padding-top: 5px;
+    background: rgba(0,0,0,0.5);
+    width: 24%;
+    font-size: 1.1vw;
+    color: #fff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+article{
+  max-width: 60%;
+  min-width: 40%;
+  padding: 10px;
+}
+
+.titulo{
+  background: rgba(0,0,0,0.5);
+  font-size: 2.5vw;
+  border-radius: 5px 5px 0px 0px;
+}
+/*carrucel*/
+
+.slide{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.fa1{
+    background-image: url(../img/slide11.png);
+}
+.fa2{
+    background-image: url(../img/slide22.png);
+}
+.fa3{
+    background-image: url(../img/slide33.png);
+}
+/*fin de carrucel*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
